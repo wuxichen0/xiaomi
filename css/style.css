@@ -1,0 +1,345 @@
+body,ul,li{
+    margin: 0;
+    padding:0 ;
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/* topbar */
+.topbar{
+    background-color: #333;
+    height: 40px;
+}
+.topbar a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.topbar a:hover{
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    width: 1226px;
+}
+
+.topbar_nav{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0;
+}
+.topbar_nav span{
+    font-size: 12px;
+    color: #424242;
+    font-family: sans-serif;
+    margin: 0.5em;
+}
+.topbar_info,.topbar_cart{
+    float: right;
+}
+.topbar_cart a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 120px;
+    background-color: #424242;
+}
+.topbar_cart a:hover{
+    color: #ff6700;
+    background-color:white;
+}
+.topbar_cart span{
+    margin-left: -4px;
+    font-size: 12px;
+}
+.topbar_cart i{
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 4px;
+    vertical-align: -4px;
+}
+.topbar_info{
+    margin-right: 15px;
+}
+.topbar_info a{
+    float: left;
+    padding: 0 5px;
+    line-height: 40px;
+    height: 40px;
+}
+.topbar_info span{
+    float: left;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #424242;
+    line-height: 40px;
+}
+.topbar_info .sep{
+    padding: 0 10px;
+}
+
+
+
+/*                  header                  */
+.header{
+    height: 100px;
+}
+.header_logo{
+    width: 62px;
+    margin-top: 20px;
+    height: 55px;
+}
+.header_logo a{
+    height: 55px;
+    width: 55px;
+    display: block;
+    background:#ff6700 url(../img/mi-logo.png) no-repeat 50% 50%;
+    
+}
+.header_logo a.lr{
+    /* css启用时 文字隐藏 */
+    text-align: left;
+    text-indent: -9992em;
+}
+/*          header_nav      */
+.header_nav{
+    width: 820px;
+    height: 100px;
+
+}
+.header_nav .nav_list{
+    width: 820px;
+    height: 88px;
+    font-size: 16px;
+    padding: 12px 0 0 30px;
+}
+.header_nav .nav_list .nav_ca{
+    float: left;
+    width: 127px;
+    padding: 0 15px 0 0;
+}
+.header_nav .nav_list .nav_ca a{
+    display: block;
+    text-align: right;
+    padding: 26px 0 38px;
+    color: #333;
+}
+.header_nav .nav_list .nav_ca a:hover{
+    color: #ff6700;
+}
+.header_nav .nav_list .nav_item{
+    float: left;
+}
+.header_nav .nav_list .nav_item a{
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.header_nav .nav_list .nav_item a:hover{
+    color: #ff6700;
+}
+
+
+/*          header_search      */
+.header_search{
+    width: 296px;
+    height: 50px;
+    margin-top: 25px;
+}
+.header_search .search_form{
+    display: block;
+    width: 296px;
+    height: 50px;
+    position: relative;
+}
+.header_search .search_form .search_text{
+    display: block;
+    width: 245px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid gray;
+    outline: 0;
+    position: absolute;
+    top: 0;
+    right: 51px;
+}
+.header_search .search_form .search_btn{
+    display: block;
+    width: 52px;
+    height: 50px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 50px;
+    background: #fff;
+    color: #616161;
+    outline: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.header_search .search_form .search_btn:hover{
+    background: #ff6700;
+    color: white;
+}
+
+
+
+
+/*                  hseckill                  */
+.seckill{
+    background-color: #f5f5f5;
+}
+.seckill_head{
+    background: url("../img/3cba013aa492551729f3a42e1668b9d9.jpg") no-repeat 50% 0;
+    height: 170px;
+    margin-top: 19px;
+}
+.seckill_nav{
+    margin:-68px 0 22px;
+    position: sticky;
+    top: 0;
+}
+.seckill_nav ul{
+    height: 68px;
+    background-color: #414141;
+}
+.seckill_nav li{
+    display: block;
+    float: left;
+    color: white;
+    width: 20%;
+    height:68px;
+    line-height: 68px;
+    text-align: center;
+    cursor: pointer;
+}
+.seckill_nav li em{
+    display: inline-block;
+    margin-left: 30px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    vertical-align:middle;   
+}
+.seckill_nav li span{
+    margin-left: 15px;
+    display: inline-block;
+    text-align: left;
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.seckill_nav li span em{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 0;
+    font-style: normal;
+    text-align:left ;
+    line-height: 20px;
+}
+.seckill_nav .active{
+    background-color: red;
+}
+
+
+/*          seckill_goods        */
+.seckill_goods ul{
+    display: none;
+    margin-right: -13px;
+}
+.seckill_goods li{
+    width: 400px;
+    height: 190px;
+    background-color: #fff;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+.seckill_goods .bg{
+    float: left;
+    width: 190px;
+    height: 190px;
+
+}
+.seckill_goods .bg img{
+    width: 100%;
+    height: 100%;
+}
+.seckill_goods .info{
+    margin-left: 210px;
+    width:190px;
+    height: 190px;
+    padding-top: 30px;
+}
+.seckill_goods .info .name{
+    font-size: 16px;
+    color: #333;
+    height: 16px;
+    line-height: 16px;
+    display: block;
+    white-space: nowrap;/* 取消换行 */
+    overflow: hidden;
+    text-overflow: ellipsis;/* 超出部分用省略号 */
+}
+.seckill_goods .info .tips{
+    font-size: 12px;
+    line-height: 12px;
+    color: #b0b0b0;
+    margin-top: 10px;
+}
+.seckill_goods .info .price{
+    font-size: 16px;
+    color: red;
+    line-height: 16px;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+.seckill_goods .info .price del{
+    color: #999;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 10px;
+}
+.seckill_goods .info .btn{
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #f1393a;
+    line-height:28px;
+    text-align: center;
+    margin-top: 19px;
+    border: 1px solid #f1393a;
+}
+.seckill_goods .info .person{
+    font-size: 12px;
+    line-height: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+.seckill_notice{
+    font-size: 12px;
+    color: #999;
+    margin-top: 100px;
+    padding-bottom: 35px;
+}
+
